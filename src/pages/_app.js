@@ -1,8 +1,7 @@
 import dynamic from "next/dynamic";
-import "../App.css"; // adjust path if needed (maybe "../src/App.css")
+import "../App.css";
 
-// Dynamically import your SPA App component and disable SSR
-const App = dynamic(() => import("../src/App"), { ssr: false });
+const App = dynamic(() => import("../App"), { ssr: false });
 
 export default function MyApp() {
   return <App />;
