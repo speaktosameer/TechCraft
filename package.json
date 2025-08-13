@@ -69,6 +69,23 @@
     "postcss": "^8.5",
     "tailwindcss": "^4.1.9",
     "tw-animate-css": "1.3.3",
-    "typescript": "^5"
-  }
+    "typescript": "^5.9.2"
+  },
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speaktosameer/TechCraft.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/speaktosameer/TechCraft/issues"
+  },
+  "homepage": "https://github.com/speaktosameer/TechCraft#readme"
 }
